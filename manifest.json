@@ -1,6 +1,6 @@
 {
 	"name": "Puyopuyo Controller",
-	"description": "説明",
+	"description": "puyop.comのとこぷよをコントローラで遊ぶために作りました。",
 	"manifest_version": 3,
 	"version": "1.0",
 	"permissions": [
