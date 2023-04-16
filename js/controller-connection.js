@@ -37,7 +37,7 @@ window.addEventListener("gamepadconnected", function(e) {
 
                 keypress_action({key: 'v',keyCode: 86});
                 break;
-            case data[12].pressed && !presstype:
+            case data[13].pressed && !presstype:
                 // console.log("13 press bottom");
 
                 keypress_action({key: 'b',keyCode: 66});
@@ -87,7 +87,7 @@ window.addEventListener("gamepadconnected", function(e) {
                 document.getElementById("tokopuyo_button").click();
                 break;
 
-            case !data[0].pressed && !data[1].pressed && !data[14].pressed && !data[12].pressed && 
+            case !data[0].pressed && !data[1].pressed && !data[14].pressed && !data[13].pressed && 
                  !data[15].pressed && !data[4].pressed && !data[5].pressed && !data[9].pressed && 
                  !data[8].pressed && !data[10].pressed && !data[11].pressed:
                 // console.log("repress");
