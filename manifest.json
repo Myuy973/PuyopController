@@ -12,6 +12,7 @@
 	"content_scripts": [
         {
          	"js": ["js/controller-connection.js"],
+			"css": ["css/puyop.css"],
 			"matches": ["http://www.puyop.com/s/", "http://www.puyop.com/sim/"]
 		}
     ]
